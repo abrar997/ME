@@ -4,12 +4,12 @@ import HeaderSocials from "./HeaderSocials";
 import "./Header.css";
 const Header = () => {
   return (
-    <header className='mt-0'>
+    <header className="mt-0" id="home">
       <div className="container header__container">
         <div>
           <h5>Hello I'm , </h5>
           <h1>Abrar Muthana </h1>
-          <h5>Frontend Developer </h5>
+          <h5>Fullstack Web Developer </h5>
         </div>
         <div>
           <CTA />

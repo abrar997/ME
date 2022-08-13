@@ -47,10 +47,10 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 7rem 1.5rem 1.5rem 1.5rem;
+  padding: 1rem 3rem 0 0;
 }
 .me img {
-  width: 100%;
+  width: 130%;
 }
 
 /* **************** Scroll Down ***************** */
@@ -66,13 +66,13 @@ header {
 /* *************Media Query (Medium Devices)************** */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 128vh;
   }
 }
 /* *************Media Query (Small Devices)************** */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 130vh;
   }
   .header__Social,
   .scroll-down {
