@@ -62,7 +62,7 @@ h1 {
 
 section {
   margin-top: 8rem; /* 8*16=128px*/
-  height: 100vh !important;
+  /* height: 100vh !important; */
 }
 section > h2,
 section h5 {

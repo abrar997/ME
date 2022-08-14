@@ -8,56 +8,47 @@ const Experience = () => {
   const [FrontEnd] = React.useState([
     {
       id: 1,
-      icon: <BsFillPatchCheckFill />,
       skill: "HTML",
       level: "experience",
     },
     { id: 2, icon: <BsFillPatchCheckFill />, skill: "CSS,CSS3", level: "" },
     {
       id: 3,
-      icon: <BsFillPatchCheckFill />,
       skill: "JavaScript(ES6)",
       level: "",
     },
     {
       id: 4,
-      icon: <BsFillPatchCheckFill />,
       skill: "React js",
       level: "high level",
     },
     {
       id: 5,
-      icon: <BsFillPatchCheckFill />,
       skill: "Hooks",
       level: "intermediate",
     },
     {
       id: 6,
-      icon: <BsFillPatchCheckFill />,
       skill: "Rest API",
       level: "intermediate",
     },
     {
-      id: 6,
-      icon: <BsFillPatchCheckFill />,
+      id: 7,
       skill: "Bootstrap 4,5",
       level: "high level",
     },
     {
-      id: 6,
-      icon: <BsFillPatchCheckFill />,
+      id: 8,
       skill: "Sass",
       level: "intermediate",
     },
     {
-      id: 6,
-      icon: <BsFillPatchCheckFill />,
+      id: 9,
       skill: "Tailwand Css",
       level: "basic",
     },
     {
-      id: 6,
-      icon: <BsFillPatchCheckFill />,
+      id: 10,
       skill: "Material UI",
       level: "basic",
     },
@@ -66,25 +57,21 @@ const Experience = () => {
   const [Backend] = React.useState([
     {
       id: 1,
-      icon: <BsFillPatchCheckFill />,
       skill: "php",
       level: "intermediate",
     },
     {
       id: 2,
-      icon: <BsFillPatchCheckFill />,
       skill: "Laravel",
       level: "intermediate",
     },
     {
       id: 3,
-      icon: <BsFillPatchCheckFill />,
       skill: "mySQl",
       level: "intermediate",
     },
     {
-      id: 3,
-      icon: <BsFillPatchCheckFill />,
+      id: 4,
       skill: "Bootstrap 4,5",
       level: "experience",
     },
@@ -101,10 +88,12 @@ const Experience = () => {
           <div className="experience__content">
             {FrontEnd.map((skill) => {
               return (
-                <article className="experience__details" key={skill.id}>
-                  <span className="experience__details-icon">{skill.icon} </span>
-                  <h6>{skill.skill} </h6>
-                  <small className="text-light">{skill.level}</small>
+                <article className="expeience__details" key={skill.id}>
+                  <BsFillPatchCheckFill className="experience__details-icon" />
+                  <div>
+                    <h4>{skill.skill} </h4>
+                    <small className="text-light">{skill.level}</small>
+                  </div>
                 </article>
               );
             })}
@@ -118,10 +107,13 @@ const Experience = () => {
           <div className="experience__content">
             {Backend.map((skill) => {
               return (
-                <article className="experience__details" key={skill.id}>
-                  <span className="experience__details-icon">{skill.icon} </span>
-                  <h6>{skill.skill} </h6>
-                  <small className="text-light">{skill.level}</small>
+                <article className="expeience__details" key={skill.id}>
+                  <BsFillPatchCheckFill className="experience__details-icon" />
+
+                  <div>
+                    <h4>{skill.skill} </h4>
+                    <small className="text-light">{skill.level}</small>
+                  </div>
                 </article>
               );
             })}
