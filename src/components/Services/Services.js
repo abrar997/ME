@@ -4,22 +4,22 @@ import { BiCheck } from "react-icons/bi";
 const Services = () => {
   const [data] = React.useState([
     [
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:1,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:2,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:3,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:4,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
     ],
     [
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:1,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:2,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:3,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:4,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
     ],
     [
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
-      { skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:1,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:2,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:3,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
+      { id:4,skils: "Lorem ipsum dolor sit amet, consectetur adip" },
     ],
   ]);
   return (
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
           {data[0].map((item) => {
             return (
-              <ul className="service__list">
+              <ul className="service__list" key={item.id}>
                 <li>
                   <BiCheck className="service__list-icon" /> <p></p>
                   <p>{item.skils} </p>
@@ -52,7 +52,7 @@ const Services = () => {
           </div>
           {data[1].map((item) => {
             return (
-              <ul  className="service__list">
+              <ul  className="service__list" key={item.id}>
                 <li>
                   <BiCheck className="service__list-icon" /> <p></p>
                   <p>{item.skils} </p>
@@ -70,7 +70,7 @@ const Services = () => {
           </div>
           {data[1].map((item) => {
             return (
-              <ul  className="service__list">
+              <ul  className="service__list" key={item.id}>
                 <li>
                   <BiCheck className="service__list-icon" /> <p></p>
                   <p>{item.skils} </p>

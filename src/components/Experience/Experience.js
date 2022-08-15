@@ -76,6 +76,33 @@ const Experience = () => {
       level: "experience",
     },
   ]);
+  const [Other] = React.useState([
+    {
+      id: 1,
+      skill: "Github",
+      level: "intermediate",
+    },
+    {
+      id: 2,
+      skill: "postman",
+      level: "intermediate",
+    },
+    {
+      id: 3,
+      skill: "photoshop",
+      level: "intermediate",
+    },
+    {
+      id: 4,
+      skill: "vercel ",
+      level: "intermediate",
+    },
+    {
+      id: 5,
+      skill: " netlify",
+      level: "intermediate",
+    },
+  ]);
   return (
     <section id="experience">
       <h5>what Skills I Have .. </h5>
@@ -120,6 +147,26 @@ const Experience = () => {
           </div>
         </div>
         {/* Backend End */}
+
+        {/* Other skills */}
+        <div className="experinece__backend">
+          <h3>Other Skills</h3>
+          <div className="experience__content">
+            {Other.map((skill) => {
+              return (
+                <article className="expeience__details" key={skill.id}>
+                  <BsFillPatchCheckFill className="experience__details-icon" />
+
+                  <div>
+                    <h4>{skill.skill} </h4>
+                    <small className="text-light">{skill.level}</small>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+        {/* end */}
       </div>
     </section>
   );

@@ -35,10 +35,42 @@
   transform: rotate(0);
 }
 
+.about-me-details h3 {
+  color: var(--color-primary);
+}
+.about-me-details ul {
+  margin-bottom: 1rem;
+}
+.contact-btn {
+  margin-top: 1rem;
+}
+
+.about-me-details ul li span:nth-child(1) {
+  color: var(--color-primary);
+  font-size: 14px;
+  padding-right: 3px;
+}
+.about-me-details ul li span:nth-child(2) {
+  color: var(--color-light);
+  font-size: 14px;
+  padding-right: 3px;
+  padding: 0 4px;
+}
+.about-me-details ul li span:nth-child(3) {
+  color: var(--color-primary);
+  padding: 0 4px 0 0;
+}
+
+.text-date {
+  color: var(--color-primary) !important;
+  font-size: 12px;
+}
+
 .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .about__card {
@@ -85,17 +117,13 @@
 
   .about__me {
     width: 50%;
-    margin: 2rem auto 0rem;
-    /* margin-top: -4rem; */
+    margin: 1rem auto 0rem;
   }
 
-  .about__content p {
+  .about__content {
     margin: 1rem 0 1.5rem;
+    text-align: left !important;
   }
-
-  /* .about__cards {
-    margin-top: -40px;
-  } */
 }
 
 /* *************Media Query (Amall Devices)************** */
@@ -105,7 +133,7 @@
   }
 
   .about__cards {
-    margin-top: -4rem;
+    /* margin-top: -4rem; */
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
