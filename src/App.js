@@ -9,8 +9,9 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Services from "./components/Services/Services";
-import Testiminals from "./components/Testiminals/Testiminals";
+// import Services from "./components/Services/Services";
+// import Testiminals from "./components/Testiminals/Testiminals";
+
 const App = () => {
   return (
     <>

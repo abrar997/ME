@@ -64,8 +64,17 @@ textarea {
 /* *************Media Query (Medium Devices)************** */
 
 @media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 50%;
+  }
 }
 
 /* *************Media Query (Amall Devices)************** */
 @media screen and (max-width: 660px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }

@@ -5,6 +5,9 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBookHeart } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { TbMessages } from "react-icons/tb";
+import { FaRProject } from "react-icons/fa";
+import { GoProject } from "react-icons/go";
+import { MdWork } from "react-icons/md";
 const Navbar = () => {
   const [activeNav, setactiveNav] = useState("#home");
   return (
@@ -31,11 +34,11 @@ const Navbar = () => {
         <BiBookHeart />
       </a>
       <a
-        href="#service"
-        onClick={() => setactiveNav("#service")}
-        className={activeNav === "#service" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setactiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
-        <RiServiceLine />
+        <MdWork />
       </a>
       <a
         href="#contact"

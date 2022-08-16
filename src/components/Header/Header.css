@@ -1,5 +1,5 @@
 header {
-  height: 100vh; /* 1vh=0.01px*/
+  height: 90vh; /* 1vh=0.01px*/
   overflow: hidden;
 }
 .header__container {

@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { SiGooglemessages } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  // Email js to send email from Form
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_e45l3xa",
+      "template_95gt8xr",
+      form.current,
+      "hJoA8Klc7U63TEKnd"
+    );
+    e.target.reset();
+  };
+
   const [options] = React.useState([
     {
       icon: <MdOutlineEmail />,
@@ -28,15 +43,17 @@ const Contact = () => {
       text: "Send a message",
     },
   ]);
+
   return (
     <section id="contact">
       <h5>Get In Touch </h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          {options.map((option) => {
+          {/* ledt article side  */}
+          {options.map((option, index) => {
             return (
-              <article className="contact__option">
+              <article className="contact__option" key={index}>
                 <p className="contact_option-icon">{option.icon}</p>
                 <h4> {option.option}</h4>
                 <h5>{option.syntax} </h5>
@@ -50,7 +67,7 @@ const Contact = () => {
         {/* END of conatct Option */}
 
         {/* Start Form  */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <h4>send me a message</h4>
           <input
             type="text"
