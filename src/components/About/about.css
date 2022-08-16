@@ -114,12 +114,12 @@
   .about__container {
     grid-template-columns: 1fr;
   }
-
+  
   .about__me {
     width: 50%;
     margin: 1rem auto 0rem;
   }
-
+  
   .about__content {
     margin: 1rem 0 1.5rem;
     text-align: left !important;
@@ -129,7 +129,11 @@
 /* *************Media Query (Amall Devices)************** */
 @media screen and (max-width: 660px) {
   .about__me {
-    width: 70%;
+    width: 80%;
+
+  }
+  .about-me-details{
+    margin-top: -5rem;
   }
 
   .about__cards {
@@ -137,12 +141,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
-
+  
   .about__content {
     text-align: center;
-  }
 
-  .about__content p {
-    margin: 1.5rem 0;
   }
+  
 }
