@@ -8,14 +8,19 @@ const Experience = () => {
   const [FrontEnd] = React.useState([
     {
       id: 1,
-      skill: "HTML",
+      skill: "HTML,HTML5",
       level: "experience",
     },
-    { id: 2, icon: <BsFillPatchCheckFill />, skill: "CSS,CSS3", level: "" },
+    {
+      id: 2,
+      icon: <BsFillPatchCheckFill />,
+      skill: "CSS,CSS3",
+      level: "experience",
+    },
     {
       id: 3,
       skill: "JavaScript(ES6)",
-      level: "",
+      level: "intermediate",
     },
     {
       id: 4,
@@ -92,16 +97,16 @@ const Experience = () => {
       skill: "photoshop",
       level: "intermediate",
     },
-    {
-      id: 4,
-      skill: "vercel ",
-      level: "intermediate",
-    },
-    {
-      id: 5,
-      skill: " netlify",
-      level: "intermediate",
-    },
+    // {
+    //   id: 4,
+    //   skill: "vercel ",
+    //   level: "intermediate",
+    // },
+    // {
+    //   id: 5,
+    //   skill: " netlify",
+    //   level: "intermediate",
+    // },
   ]);
   return (
     <section id="experience">

@@ -73,7 +73,7 @@ const About = () => {
                   <BiCheck />
                 </span>
                 Diploma of Backend{" "}
-                <span className="text-date">( 2022-April -- 2022-July )</span>
+                <span className="text-date">( 2022-April -- 2022-August )</span>
               </p>
             </li>
             <li className="contact-btn">

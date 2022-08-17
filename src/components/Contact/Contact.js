@@ -31,8 +31,8 @@ const Contact = () => {
     {
       icon: <SiGooglemessages />,
       option: "Messenger",
-      syntax: "Abrar",
-      href: "https://m.me/abrar.alrawi",
+      syntax: "Abrar Alrawi",
+      href: "https://m.me/Abrar Alrawi",
       text: "Send a message",
     },
     {

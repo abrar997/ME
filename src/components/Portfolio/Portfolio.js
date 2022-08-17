@@ -20,10 +20,12 @@ const Portfolio = () => {
                 <p>{item.skills} </p>
               </div>
               <div className="portfolio_item-cta">
-                <a href={item.github} className="btn" target="_blank">
+                {/* Github link */}
+                <a href={item.Github} className="btn" target="_blank">
                   Github
                 </a>
-                <a href={item.Demo} className="btn btn-primary">
+                {/* Demo link */}
+                <a href={item.Demo} className="btn btn-primary" target="_blank">
                   Live Demo
                 </a>
               </div>
