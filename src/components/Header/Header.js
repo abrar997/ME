@@ -18,7 +18,7 @@ const Header = () => {
           <HeaderSocials />
         </div>
         <div className="me">
-          <img src={require("../../assets/2.png")} alt="my-image" />{" "}
+          <img src={require("../../assets/2.png")} alt="my-image" />
         </div>
         <a href="#contact" className="scroll-down">
           Scroll Down
