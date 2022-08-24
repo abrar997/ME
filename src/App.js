@@ -24,8 +24,11 @@ const App = () => {
       {/* <Testiminals /> */}
       <Contact />
       <Footer />
+
+
     </>
   );
 };
 
 export default App;
+

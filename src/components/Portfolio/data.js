@@ -6,14 +6,14 @@ import img5 from "../../assets/projects/falcon.png";
 import img6 from "../../assets/projects/company.png";
 
 export const data = [
-  // {
-  //   id: 1,
-  //   name: "Market-Ecommerce Template to buy home decore (Responsive)",
-  //   img: img1,
-  //   skills: "React js , hooks , Axios , bootstrap5 ",
-  //   Github: "https://github.com/abrar997/update_Market-.git",
-  //   Demo: "https://warm-profiterole-43f7b0.netlify.app/",
-  // },
+  {
+    id: 1,
+    name: "Resturant (Responsive)",
+    img: img1,
+    skills: "React js , CSS , hooks ",
+    Github: "https://github.com/abrar997/RESTURANT-ME.git",
+    Demo: "https://abrar997.github.io/RESTURANT-ME/",
+  },
   {
     id: 2,
     name: "Instgram clone (Responsive)",
