@@ -26,7 +26,7 @@ const Portfolio = () => {
                 </a>
                 {/* Demo link */}
                 <a href={item.Demo} className="btn btn-primary" target="_blank">
-                  Live Demo
+                   Demo
                 </a>
               </div>
             </article>

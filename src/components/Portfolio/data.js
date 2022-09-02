@@ -4,6 +4,7 @@ import img3 from "../../assets/projects/teach.png";
 import img4 from "../../assets/projects/gap.png";
 import img5 from "../../assets/projects/falcon.png";
 import img6 from "../../assets/projects/company.png";
+import img7 from "../../assets/projects/admin.png";
 
 export const data = [
   {
@@ -23,6 +24,14 @@ export const data = [
     skills: " React js , Axios , firebase , bootstrap5 ",
   },
   {
+    id: 7,
+    name: "Admin dashboard template",
+    img: img7,
+    skills: " React js , Scss , Material UI ",
+    Github: "https://github.com/abrar997/Admin-dashboard-MEE",
+    Demo: " https://funny-maamoul-5e654c.netlify.app/",
+  },
+  {
     id: 3,
     name: "Market-Ecommerce Template to buy teaching courses and u can be  instructore",
     img: img3,
@@ -34,7 +43,7 @@ export const data = [
 
   {
     id: 4,
-    name: "Gap Market Template to buy Home decore (Responsive)",
+    name: "Gap Market Template to buy Home decore",
     skills: "HTML , CSS , Java Script , Mdbootstrap4  ",
     img: img4,
     Github: "https://github.com/abrar997/gaps.git",
