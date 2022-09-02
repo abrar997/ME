@@ -27,7 +27,7 @@ export const data = [
     id: 7,
     name: "Admin dashboard template",
     img: img7,
-    skills: " React js , Scss , Material UI ",
+    skills: " React js , Sass , Material UI ",
     Github: "https://github.com/abrar997/Admin-dashboard-MEE",
     Demo: " https://funny-maamoul-5e654c.netlify.app/",
   },
