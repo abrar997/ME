@@ -4,15 +4,18 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { TbFolders } from "react-icons/tb";
 import { BsPersonLinesFill } from "react-icons/bs";
-import { MdOutlineTipsAndUpdates } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { BiCheck } from "react-icons/bi";
 
 const About = () => {
-  // main data in about
   const [data] = React.useState([
-    { id: 1, icons: <FaAward />, name: "Experience", time: "1.5 Year Experience " },
+    {
+      id: 1,
+      icons: <FaAward />,
+      name: "Experience",
+      time: "1.5 Year Experience ",
+    },
     { id: 2, icons: <FiUsers />, name: "Clients", time: "..." },
     { id: 3, icons: <TbFolders />, name: "Projects", time: "+10" },
   ]);
@@ -40,13 +43,7 @@ const About = () => {
               </span>
               <span>Name: </span>Abrar Muthana Rakea
             </li>
-            <li>
-              <span>
-                <MdOutlineTipsAndUpdates />
-              </span>
-              <span>Age: </span>
-              24
-            </li>
+
             <li>
               <span>
                 <GoLocation />
@@ -76,8 +73,7 @@ const About = () => {
                 <span className="text-date">( 2022-April -- 2022-August )</span>
               </p>
             </li>
-            <li className="contact-btn">
-            </li>
+            <li className="contact-btn"></li>
           </ul>
           <div className="about__content">
             <div className="about__cards">
@@ -91,9 +87,9 @@ const About = () => {
                 );
               })}
             </div>
-              <a href="#contact" className="btn btn-primary">
-                Let's Talk
-              </a>
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@
 
 .expeience__details {
   display: flex;
-  gap: 1rem;
+  gap: 0.6rem;
 }
 
 .experience__details-icon {

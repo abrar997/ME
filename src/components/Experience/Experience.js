@@ -34,7 +34,7 @@ const Experience = () => {
     },
     {
       id: 6,
-      skill: "Rest API",
+      skill: "framer-motion",
       level: "intermediate",
     },
     {
@@ -49,8 +49,8 @@ const Experience = () => {
     },
     {
       id: 9,
-      skill: "Tailwand Css",
-      level: "basic",
+      skill: "Tailwind Css",
+      level: "experience",
     },
     {
       id: 10,
@@ -85,6 +85,16 @@ const Experience = () => {
     {
       id: 1,
       skill: "Github",
+      level: "good",
+    },
+    {
+      id: 1,
+      skill: "bitbucket",
+      level: "intermediate",
+    },
+    {
+      id: 1,
+      skill: "Jira",
       level: "intermediate",
     },
     {
@@ -92,21 +102,6 @@ const Experience = () => {
       skill: "postman",
       level: "intermediate",
     },
-    {
-      id: 3,
-      skill: "photoshop",
-      level: "intermediate",
-    },
-    // {
-    //   id: 4,
-    //   skill: "vercel ",
-    //   level: "intermediate",
-    // },
-    // {
-    //   id: 5,
-    //   skill: " netlify",
-    //   level: "intermediate",
-    // },
   ]);
   return (
     <section id="experience">
@@ -171,7 +166,6 @@ const Experience = () => {
             })}
           </div>
         </div>
-        {/* end */}
       </div>
     </section>
   );
